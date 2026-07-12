@@ -1,4 +1,4 @@
-# NusantaraSAMS
+# Nusantara Seismic Logs
 
 Nusantara Seismic Logs adalah aplikasi web untuk memantau aktivitas kegempaan (seismik) di Indonesia. Aplikasi ini menampilkan informasi gempa bumi terkini, termasuk peta interaktif yang menunjukkan lokasi gempa, magnitudo, kedalaman, dan informasi relevan lainnya bersumber dari data BMKG.
 
@@ -28,8 +28,8 @@ Proyek ini dibangun menggunakan:
 
 1. **Kloning repositori:**
    ```bash
-   git clone <URL_REPOSITORI>
-   cd NusantaraSAMS
+   git clone https://github.com/K4nes/NusantaraSeismicLogs
+   cd NusantaraSeismicLogs
    ```
 
 2. **Instal dependensi:**

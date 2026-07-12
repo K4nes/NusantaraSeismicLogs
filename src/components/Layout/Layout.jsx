@@ -29,6 +29,11 @@ export default function Layout() {
         <main className="flex-1 min-w-0 overflow-hidden relative">
             <Map
               ref={mapRef}
+              initialViewState={{
+                longitude: 117.277568,
+                latitude: -1.045626,
+                zoom: 4
+              }}
               style={{ width: "100%", height: "100%" }}
               mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${mapAPI}`}
             >
